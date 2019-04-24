@@ -1,0 +1,11 @@
+C:\revature\trainer-code\HelloWorld\bin\MCD\Debug\netcoreapp2.2\HelloWorld.deps.json
+C:\revature\trainer-code\HelloWorld\bin\MCD\Debug\netcoreapp2.2\HelloWorld.runtimeconfig.json
+C:\revature\trainer-code\HelloWorld\bin\MCD\Debug\netcoreapp2.2\HelloWorld.runtimeconfig.dev.json
+C:\revature\trainer-code\HelloWorld\bin\MCD\Debug\netcoreapp2.2\HelloWorld.dll
+C:\revature\trainer-code\HelloWorld\bin\MCD\Debug\netcoreapp2.2\HelloWorld.pdb
+C:\revature\trainer-code\HelloWorld\obj\MCD\Debug\netcoreapp2.2\HelloWorld.csprojAssemblyReference.cache
+C:\revature\trainer-code\HelloWorld\obj\MCD\Debug\netcoreapp2.2\HelloWorld.csproj.CoreCompileInputs.cache
+C:\revature\trainer-code\HelloWorld\obj\MCD\Debug\netcoreapp2.2\HelloWorld.AssemblyInfoInputs.cache
+C:\revature\trainer-code\HelloWorld\obj\MCD\Debug\netcoreapp2.2\HelloWorld.AssemblyInfo.cs
+C:\revature\trainer-code\HelloWorld\obj\MCD\Debug\netcoreapp2.2\HelloWorld.dll
+C:\revature\trainer-code\HelloWorld\obj\MCD\Debug\netcoreapp2.2\HelloWorld.pdb
