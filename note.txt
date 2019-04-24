@@ -1,0 +1,4 @@
+git add <path>
+    -- this will stage all local channges to any files under that path
+    -- usually "git add ." from top-level repo folder
+    -- because "." in bash means current directory
