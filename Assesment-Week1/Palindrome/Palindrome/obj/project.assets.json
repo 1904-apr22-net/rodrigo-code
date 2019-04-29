@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodrigo\\source\\repos\\Palindrome\\Palindrome\\Palindrome.csproj",
+      "projectUniqueName": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\Palindrome.csproj",
       "projectName": "Palindrome",
-      "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Palindrome\\Palindrome\\Palindrome.csproj",
+      "projectPath": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\Palindrome.csproj",
       "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodrigo\\source\\repos\\Palindrome\\Palindrome\\obj\\",
+      "outputPath": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -224,8 +224,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Rodrigo\\source\\repos\\Palindrome\\TestPalindrome\\TestPalindrome.csproj": {
-              "projectPath": "C:\\Users\\Rodrigo\\source\\repos\\Palindrome\\TestPalindrome\\TestPalindrome.csproj"
+            "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\TestPalindrome\\TestPalindrome.csproj": {
+              "projectPath": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\TestPalindrome\\TestPalindrome.csproj"
             }
           }
         }
