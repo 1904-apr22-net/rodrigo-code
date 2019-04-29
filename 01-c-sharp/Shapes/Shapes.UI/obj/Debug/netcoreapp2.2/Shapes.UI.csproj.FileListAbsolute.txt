@@ -1,4 +1,0 @@
-C:\revature\rodrigo-code\01-c-sharp\Shapes\Shapes.UI\obj\Debug\netcoreapp2.2\Shapes.UI.csprojAssemblyReference.cache
-C:\revature\rodrigo-code\01-c-sharp\Shapes\Shapes.UI\obj\Debug\netcoreapp2.2\Shapes.UI.csproj.CoreCompileInputs.cache
-C:\revature\rodrigo-code\01-c-sharp\Shapes\Shapes.UI\obj\Debug\netcoreapp2.2\Shapes.UI.AssemblyInfoInputs.cache
-C:\revature\rodrigo-code\01-c-sharp\Shapes\Shapes.UI\obj\Debug\netcoreapp2.2\Shapes.UI.AssemblyInfo.cs
