@@ -1675,6 +1675,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Palindrome/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Palindrome.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Palindrome.dll": {}
+        }
       }
     }
   },
@@ -5851,12 +5861,18 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Palindrome/1.0.0": {
+      "type": "project",
+      "path": "../Palindrome/Palindrome.csproj",
+      "msbuildProject": "../Palindrome/Palindrome.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
+      "Palindrome >= 1.0.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
@@ -5890,7 +5906,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\Palindrome.csproj": {
+              "projectPath": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\Palindrome.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

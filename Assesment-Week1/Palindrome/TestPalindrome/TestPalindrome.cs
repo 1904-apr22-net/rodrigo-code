@@ -10,8 +10,8 @@ namespace TestPalindrome
         public void TestRemoveSpaces()
         {
             String str = "Hello my friend.";
-            str = RemoveSpace(str);
-            Assert.Equal("Hellomyfriend", str);
+            String str2 = RemoveSpaces(str);
+            Assert.Equal("Hellomyfriend", str2);
 
         }
     }
