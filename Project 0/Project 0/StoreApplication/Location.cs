@@ -4,7 +4,11 @@ using System.Text;
 
 namespace StoreApplication
 {
-    class Location
+    public class Location
     {
+        public Dictionary<Products, int> Inventory{get; set;}
+
+        public List<Order> OrderHistory { get; set; }
+
     }
 }

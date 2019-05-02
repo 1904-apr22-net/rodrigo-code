@@ -1,0 +1,17 @@
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\bin\Debug\netcoreapp2.2\StoreApplicationTest.deps.json
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\bin\Debug\netcoreapp2.2\StoreApplicationTest.runtimeconfig.json
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\bin\Debug\netcoreapp2.2\StoreApplicationTest.runtimeconfig.dev.json
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\bin\Debug\netcoreapp2.2\StoreApplicationTest.dll
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\bin\Debug\netcoreapp2.2\StoreApplicationTest.pdb
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\bin\Debug\netcoreapp2.2\StoreApplication.dll
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\bin\Debug\netcoreapp2.2\StoreApplication.pdb
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\obj\Debug\netcoreapp2.2\StoreApplicationTest.csprojAssemblyReference.cache
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\obj\Debug\netcoreapp2.2\StoreApplicationTest.csproj.CoreCompileInputs.cache
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\obj\Debug\netcoreapp2.2\StoreApplicationTest.AssemblyInfoInputs.cache
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\obj\Debug\netcoreapp2.2\StoreApplicationTest.AssemblyInfo.cs
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\obj\Debug\netcoreapp2.2\StoreApplicationTest.csproj.CopyComplete
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\obj\Debug\netcoreapp2.2\StoreApplicationTest.dll
+C:\Revature\rodrigo-code\Project 0\Project 0\StoreApplicationTest\obj\Debug\netcoreapp2.2\StoreApplicationTest.pdb

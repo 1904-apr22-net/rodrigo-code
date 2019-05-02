@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Collections;
 
 namespace StoreApplication
 {
@@ -8,11 +9,12 @@ namespace StoreApplication
     //has a customer
     //has an order time(when the order was placed)
     //must have some additional business rules
-    class Order
+    public class Order
     {
-        Customer customer = new Customer();
-        Location location = new Location();
-        TimeSpan OrderTime = new TimeSpan(6, 30, 0);
-        
+        public Customer Customer { get; set; }
+        public Location Location { get; set; }
+        public TimeSpan OrderTime { get; set; }
+        public List<Products> ProductsOrdered { get; set; } 
+
     }
 }

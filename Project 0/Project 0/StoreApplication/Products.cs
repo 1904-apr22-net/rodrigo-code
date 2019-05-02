@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StoreApplication
 {
-    class Products
+    public class Products
     {
        
 
