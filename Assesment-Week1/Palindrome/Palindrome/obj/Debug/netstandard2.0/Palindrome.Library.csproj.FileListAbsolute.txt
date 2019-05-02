@@ -1,0 +1,9 @@
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\Palindrome\obj\Debug\netstandard2.0\Palindrome.Library.csproj.CoreCompileInputs.cache
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\Palindrome\obj\Debug\netstandard2.0\Palindrome.Library.AssemblyInfoInputs.cache
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\Palindrome\obj\Debug\netstandard2.0\Palindrome.Library.AssemblyInfo.cs
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\Palindrome\bin\Debug\netstandard2.0\Palindrome.Library.deps.json
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\Palindrome\bin\Debug\netstandard2.0\Palindrome.Library.dll
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\Palindrome\bin\Debug\netstandard2.0\Palindrome.Library.pdb
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\Palindrome\obj\Debug\netstandard2.0\Palindrome.Library.csprojAssemblyReference.cache
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\Palindrome\obj\Debug\netstandard2.0\Palindrome.Library.dll
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\Palindrome\obj\Debug\netstandard2.0\Palindrome.Library.pdb

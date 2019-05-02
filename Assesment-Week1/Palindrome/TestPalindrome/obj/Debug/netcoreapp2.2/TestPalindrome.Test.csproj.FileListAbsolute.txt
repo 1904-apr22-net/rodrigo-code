@@ -1,0 +1,17 @@
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\obj\Debug\netcoreapp2.2\TestPalindrome.Test.csprojAssemblyReference.cache
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\obj\Debug\netcoreapp2.2\TestPalindrome.Test.csproj.CoreCompileInputs.cache
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\obj\Debug\netcoreapp2.2\TestPalindrome.Test.AssemblyInfoInputs.cache
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\obj\Debug\netcoreapp2.2\TestPalindrome.Test.AssemblyInfo.cs
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\bin\Debug\netcoreapp2.2\TestPalindrome.Test.deps.json
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\bin\Debug\netcoreapp2.2\TestPalindrome.Test.runtimeconfig.json
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\bin\Debug\netcoreapp2.2\TestPalindrome.Test.runtimeconfig.dev.json
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\bin\Debug\netcoreapp2.2\TestPalindrome.Test.dll
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\bin\Debug\netcoreapp2.2\TestPalindrome.Test.pdb
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\bin\Debug\netcoreapp2.2\Palindrome.Library.dll
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\bin\Debug\netcoreapp2.2\Palindrome.Library.pdb
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\obj\Debug\netcoreapp2.2\TestPalindrome.Test.csproj.CopyComplete
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\obj\Debug\netcoreapp2.2\TestPalindrome.Test.dll
+C:\revature\rodrigo-code\Assesment-Week1\Palindrome\TestPalindrome\obj\Debug\netcoreapp2.2\TestPalindrome.Test.pdb

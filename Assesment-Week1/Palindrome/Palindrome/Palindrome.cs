@@ -1,11 +1,22 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-//using TestPalindrome;
 
-namespace Palindrome
+namespace Palindromes.Library
 {
     public class Palindrome
     {
+        string CheckPalindrome = null;
+        //protected List<T> List { set; get; } = new List<T>();
+
+        public Palindrome()
+        {
+            //CheckPalindrome = this.CheckPalindrome;
+            // if we code no constructor on a class,
+            // it has a default constructor automatically.
+            // it is public, with no parameters, and has no contents.
+
+            // as soon as we define any constructor, the default one goes away.
+        }
         public bool IsPalindrome(string toCheck)
         {
             RemoveSpaces(toCheck);
@@ -17,14 +28,17 @@ namespace Palindrome
         public string RemoveCapitals(string toCheck)
         {
             string s = toCheck;
-            for (int i = 0; i < s.Length; i++)
+            char[] s2 = s.ToCharArray();
+            for (int i = 0; i < s2.Length; i++)
             {
-                if (Char.IsLetter(s[i]))
+                if (Char.IsLetter(s2[i]))
                 {
-                    Char.ToLower(s[i]);
+                    char c = Char.ToLower(s2[i]);
+                    s2[i] = c;
                 }
             }
-            toCheck = s;
+            toCheck = s2.ToString();
+            Console.WriteLine(s2 + toCheck);
             return toCheck;
         }
 

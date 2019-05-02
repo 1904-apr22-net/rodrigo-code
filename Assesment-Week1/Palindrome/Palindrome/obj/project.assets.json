@@ -185,9 +185,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\Palindrome.csproj",
-      "projectName": "Palindrome",
-      "projectPath": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\Palindrome.csproj",
+      "projectUniqueName": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\Palindrome.Library.csproj",
+      "projectName": "Palindrome.Library",
+      "projectPath": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\Palindrome.Library.csproj",
       "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
       "outputPath": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\obj\\",
       "projectStyle": "PackageReference",

@@ -1676,14 +1676,14 @@
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "Palindrome/1.0.0": {
+      "Palindrome.Library/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/Palindrome.dll": {}
+          "bin/placeholder/Palindrome.Library.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Palindrome.dll": {}
+          "bin/placeholder/Palindrome.Library.dll": {}
         }
       }
     }
@@ -5862,17 +5862,17 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Palindrome/1.0.0": {
+    "Palindrome.Library/1.0.0": {
       "type": "project",
-      "path": "../Palindrome/Palindrome.csproj",
-      "msbuildProject": "../Palindrome/Palindrome.csproj"
+      "path": "../Palindrome/Palindrome.Library.csproj",
+      "msbuildProject": "../Palindrome/Palindrome.Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Palindrome >= 1.0.0",
+      "Palindrome.Library >= 1.0.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
     ]
@@ -5884,9 +5884,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\TestPalindrome\\TestPalindrome.csproj",
-      "projectName": "TestPalindrome",
-      "projectPath": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\TestPalindrome\\TestPalindrome.csproj",
+      "projectUniqueName": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\TestPalindrome\\TestPalindrome.Test.csproj",
+      "projectName": "TestPalindrome.Test",
+      "projectPath": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\TestPalindrome\\TestPalindrome.Test.csproj",
       "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
       "outputPath": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\TestPalindrome\\obj\\",
       "projectStyle": "PackageReference",
@@ -5907,8 +5907,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\Palindrome.csproj": {
-              "projectPath": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\Palindrome.csproj"
+            "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\Palindrome.Library.csproj": {
+              "projectPath": "C:\\revature\\rodrigo-code\\Assesment-Week1\\Palindrome\\Palindrome\\Palindrome.Library.csproj"
             }
           }
         }
