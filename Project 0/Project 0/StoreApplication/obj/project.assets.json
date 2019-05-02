@@ -686,31 +686,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rodrigo\\.nuget\\packages\\": {},
+    "C:\\Users\\Associate\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\revature\\rodrigo-code\\Project 0\\Project 0\\StoreApplication\\StoreApplication.csproj",
+      "projectUniqueName": "C:\\Revature\\rodrigo-code\\Project 0\\Project 0\\StoreApplication\\StoreApplication.csproj",
       "projectName": "StoreApplication",
-      "projectPath": "C:\\revature\\rodrigo-code\\Project 0\\Project 0\\StoreApplication\\StoreApplication.csproj",
-      "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-      "outputPath": "C:\\revature\\rodrigo-code\\Project 0\\Project 0\\StoreApplication\\obj\\",
+      "projectPath": "C:\\Revature\\rodrigo-code\\Project 0\\Project 0\\StoreApplication\\StoreApplication.csproj",
+      "packagesPath": "C:\\Users\\Associate\\.nuget\\packages\\",
+      "outputPath": "C:\\Revature\\rodrigo-code\\Project 0\\Project 0\\StoreApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rodrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Associate\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
