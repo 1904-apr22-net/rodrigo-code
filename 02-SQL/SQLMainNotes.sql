@@ -1,0 +1,58 @@
+-- data types
+--Numeric:
+	-- integer types: 
+		-- TINY INT (1 byte)
+		-- SMALL INT (2 byte)
+		-- INT (4 byte)- usual
+		-- BIG INT (8 byte)
+	--Floating point
+		-- FLOAT
+		-- REAL
+		-- DECIMAL(n,p)/ NUMERIC(n,p)
+			--type with parameters 
+			-- e.g. Decimal(5,3) is  number with enough precision for 5 decimal digits 
+			-- with 3 of them after the decimal point. ex: xx.xxx
+			-- DECIMAL (max) - max precisions
+	-- currency
+		-- MONEY
+	-- String
+		-- CHARACTER(n) / CHAR(n) (fixed length string)
+			-- CHAR(10) has space for 10 characters in every value
+		-- VARYING CHARACTER(N)/ VARCHAR(n)
+			-- Doesn't waste any extra space
+			-- we can put (max)
+			-- when we say 'abc', that is VARCHAR literal
+		-- NATIIONAL CHARACTER / NCHAR(n)
+			-- allows only Unicode character
+		-- NVARCHAR -> always use this one
+			-- allows unicode and doesn't waste space
+			-- If I need a literal string in SQL with unicode characters
+			-- I can use N'abc'
+	--date/time
+		-- DATE: For dates
+		-- TIME: For times
+		--DATETIME: For timestamps
+			-- don't use this one, precision and domain too small.
+		-- DATETIME2(n) -- precision parameter
+			-- the max is 9?
+		-- DATETIMEOFFSET - for intervals of time
+
+-- operators
+	-- equals =
+	-- not equals != or <>
+	-- and AND
+	-- or OR
+	-- < <= > >=
+		-- WHERE year BETWEEN 2009 AND 2011
+			-- includes both ends: <= and >=
+		-- In SQL, we can compare strings based on how they would sort 
+		-- in a dictionary. 
+	-- get parts of dates and times out of their types
+		-- EXTRACT(YEAR FROM OrderDate)
+		-- btw, '2019-01-1*' can be automatically treated as a date.
+	-- convert between types with convert
+		--CONVERT(780 AS VARCHAR) <- something like this
+
+-- in SQL, we have NULL
+	-- COALESCE(OrderTotal, 0) -> if OrderTotal == null, then turn to 0.
+		-- Coalesce will turn null values into something more useful.
