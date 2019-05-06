@@ -6,12 +6,14 @@ namespace StoreApplication
 {
     public class Products
     {
-        public Dictionary<String, int> Product { get; set; }
+        public string Name { get; set; }
 
+        public int Price { get; set; }
 
-        Product.Add(new KeyValuePair<string, int>("Bread", 200));
-        d.Add(new KeyValuePair<int, string>(2, "Appliances"));	
-        d.Add(new KeyValuePair<int, string>(3, "Mobile"));
+        //public int TotalQuantity { get; set; }
+        //public String Name { get; set; }
+
+        //public int Quantity { get; set; }
 
     }
 }

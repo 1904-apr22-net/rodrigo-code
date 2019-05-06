@@ -18,28 +18,20 @@ namespace StoreApplication
 
         public List<Order> custOrderHistory { get; set; }
 
-        public void CreateCustomer()
-        {
-            Console.WriteLine("Create new Customer? (y/n)");
-            string line = Console.ReadLine();
-            if ( line == "n")
-            {
-                return;
-            }
-            else
-            Customer 
-            {
-                Console.WriteLine("Type first name:");
-                
-            }
-
-
-        }
-        
+        public List<Customer> AllCustomers { get; set; }
+     
 
         public void Output()
         {
             Console.WriteLine("Customer Name: " + this.FirstName + " " + this.LastName+" At: "+this.CustLocation.Name+" Location");
+        }
+        public void custOrder()
+        {
+            Order just = new Order();
+            just.Customer = this;
+            just.Location = this.CustLocation;
+            just.OrderTime = GetTimestamp(DateTime.Now);
+
         }
     }
 }
