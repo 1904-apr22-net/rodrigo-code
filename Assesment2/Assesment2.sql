@@ -1,0 +1,25 @@
+CREATE TABLE a2.Products
+(
+    Id INT NOT NULL,
+    Name NVARCHAR(120),
+    Price INT NOT NULL,
+    CONSTRAINT PK_Product PRIMARY KEY CLUSTERED (Id)
+);
+
+
+CREATE TABLE a2.Orders
+(
+    Id INT NOT NULL,
+    CustomerId INT,
+    ProductId INT,
+    CONSTRAINT PK_Orders PRIMARY KEY CLUSTERED (Id)
+);
+
+CREATE TABLE a2.Customers
+(
+    Id INT NOT NULL,
+    FirstName NVARCHAR(160) NOT NULL,
+    LastNAmeName NVARCHAR(160) NOT NULL,
+    CardNumber INT NOT NULL,
+    CONSTRAINT PK_Customers PRIMARY KEY CLUSTERED (Id)
+);
