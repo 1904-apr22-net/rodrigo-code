@@ -7,9 +7,15 @@ namespace StoreApplication
     {
         public static void Main(string[] args)
         {
-            TimeSpan time = new TimeSpan(6, 30, 0);
-            Console.WriteLine(time.ToString());
-            
+            Customer Rod = new Customer();
+            Location L1 = new Location();
+            string FName = "Rodrigo";
+            string LName = "Salomon";
+            L1.Name = "Dallas";
+            Rod.CreateCustomer(FName, LName);
+            Rod.CustLocation = L1;
+            Rod.Output();
+
         }
     }
 }

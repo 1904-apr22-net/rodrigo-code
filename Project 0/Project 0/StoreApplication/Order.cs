@@ -16,5 +16,8 @@ namespace StoreApplication
         public TimeSpan OrderTime { get; set; }
         public List<Products> ProductsOrdered { get; set; } 
 
+
     }
+    
+  
 }

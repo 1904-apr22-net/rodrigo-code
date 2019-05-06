@@ -1,0 +1,11 @@
+C:\Revature\rodrigo-code\02-SQL\AdoNetDemo.Connected\AdoNetDemo.Connected\bin\Debug\netcoreapp2.2\AdoNetDemo.Connected.deps.json
+C:\Revature\rodrigo-code\02-SQL\AdoNetDemo.Connected\AdoNetDemo.Connected\bin\Debug\netcoreapp2.2\AdoNetDemo.Connected.runtimeconfig.json
+C:\Revature\rodrigo-code\02-SQL\AdoNetDemo.Connected\AdoNetDemo.Connected\bin\Debug\netcoreapp2.2\AdoNetDemo.Connected.runtimeconfig.dev.json
+C:\Revature\rodrigo-code\02-SQL\AdoNetDemo.Connected\AdoNetDemo.Connected\bin\Debug\netcoreapp2.2\AdoNetDemo.Connected.dll
+C:\Revature\rodrigo-code\02-SQL\AdoNetDemo.Connected\AdoNetDemo.Connected\obj\Debug\netcoreapp2.2\AdoNetDemo.Connected.csprojAssemblyReference.cache
+C:\Revature\rodrigo-code\02-SQL\AdoNetDemo.Connected\AdoNetDemo.Connected\obj\Debug\netcoreapp2.2\AdoNetDemo.Connected.csproj.CoreCompileInputs.cache
+C:\Revature\rodrigo-code\02-SQL\AdoNetDemo.Connected\AdoNetDemo.Connected\obj\Debug\netcoreapp2.2\AdoNetDemo.Connected.AssemblyInfoInputs.cache
+C:\Revature\rodrigo-code\02-SQL\AdoNetDemo.Connected\AdoNetDemo.Connected\obj\Debug\netcoreapp2.2\AdoNetDemo.Connected.AssemblyInfo.cs
+C:\Revature\rodrigo-code\02-SQL\AdoNetDemo.Connected\AdoNetDemo.Connected\bin\Debug\netcoreapp2.2\AdoNetDemo.Connected.pdb
+C:\Revature\rodrigo-code\02-SQL\AdoNetDemo.Connected\AdoNetDemo.Connected\obj\Debug\netcoreapp2.2\AdoNetDemo.Connected.dll
+C:\Revature\rodrigo-code\02-SQL\AdoNetDemo.Connected\AdoNetDemo.Connected\obj\Debug\netcoreapp2.2\AdoNetDemo.Connected.pdb

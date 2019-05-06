@@ -1,0 +1,11 @@
+C:\Revature\rodrigo-code\02-SQL\EfIntro\EfIntro.DataAccess\bin\Debug\netcoreapp2.2\EfIntro.DataAccess.deps.json
+C:\Revature\rodrigo-code\02-SQL\EfIntro\EfIntro.DataAccess\bin\Debug\netcoreapp2.2\EfIntro.DataAccess.dll
+C:\Revature\rodrigo-code\02-SQL\EfIntro\EfIntro.DataAccess\obj\Debug\netcoreapp2.2\EfIntro.DataAccess.csprojAssemblyReference.cache
+C:\Revature\rodrigo-code\02-SQL\EfIntro\EfIntro.DataAccess\obj\Debug\netcoreapp2.2\EfIntro.DataAccess.csproj.CoreCompileInputs.cache
+C:\Revature\rodrigo-code\02-SQL\EfIntro\EfIntro.DataAccess\obj\Debug\netcoreapp2.2\EfIntro.DataAccess.AssemblyInfoInputs.cache
+C:\Revature\rodrigo-code\02-SQL\EfIntro\EfIntro.DataAccess\obj\Debug\netcoreapp2.2\EfIntro.DataAccess.AssemblyInfo.cs
+C:\Revature\rodrigo-code\02-SQL\EfIntro\EfIntro.DataAccess\bin\Debug\netcoreapp2.2\EfIntro.DataAccess.runtimeconfig.json
+C:\Revature\rodrigo-code\02-SQL\EfIntro\EfIntro.DataAccess\bin\Debug\netcoreapp2.2\EfIntro.DataAccess.runtimeconfig.dev.json
+C:\Revature\rodrigo-code\02-SQL\EfIntro\EfIntro.DataAccess\bin\Debug\netcoreapp2.2\EfIntro.DataAccess.pdb
+C:\Revature\rodrigo-code\02-SQL\EfIntro\EfIntro.DataAccess\obj\Debug\netcoreapp2.2\EfIntro.DataAccess.dll
+C:\Revature\rodrigo-code\02-SQL\EfIntro\EfIntro.DataAccess\obj\Debug\netcoreapp2.2\EfIntro.DataAccess.pdb
