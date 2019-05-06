@@ -10,14 +10,15 @@ namespace StoreApplicationTest
         [Fact]
         public void TestCustomer()
         {
+            /*
             Customer Rod = new Customer();
             Location L1 = new Location();
             string FName = "Rodrigo";
             string LName = "Salomon";
             L1.Name = "Dallas";
-            Rod.CreateCustomer(FName, LName);
+            //Rod.CreateCustomer(FName, LName);
             Rod.Output();
-            
+            */
 
 
 

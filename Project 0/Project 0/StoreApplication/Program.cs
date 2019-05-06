@@ -22,6 +22,7 @@ namespace StoreApplication
         public static List<Customer> CustomerList = new List<Customer>();
         public static void Main(string[] args)
         {
+            /*
             Console.WriteLine("What do you want to do?"
                 +"1. Place Order for Customer"
                 +"2. Get order suggestion for a customer"
@@ -44,9 +45,11 @@ namespace StoreApplication
                 }
 
 
-                }
+                
                 
             }
+            */
         }
+        
     }
 }

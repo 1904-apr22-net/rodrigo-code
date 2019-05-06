@@ -30,7 +30,7 @@ namespace StoreApplication
             Order just = new Order();
             just.Customer = this;
             just.Location = this.CustLocation;
-            just.OrderTime = GetTimestamp(DateTime.Now);
+           // just.OrderTime = GetTimestamp(DateTime.Now);
 
         }
     }
