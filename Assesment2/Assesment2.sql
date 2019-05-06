@@ -43,4 +43,37 @@ INSERT INTO a2.Customers (Id, FirstName, LastNAmeName, CardNumber) VALUES (1, 'R
 INSERT INTO a2.Customers (Id, FirstName, LastNAmeName, CardNumber) VALUES (2, 'John', 'Smith', 4567);
 INSERT INTO a2.Customers (Id, FirstName, LastNAmeName, CardNumber) VALUES (3, 'Jane', 'Doe', 7891);
 
+Insert Into a2.Orders (Id, CustomerId, ProductId) VALUES (1, 1, 1)
+Insert Into a2.Orders (Id, CustomerId, ProductId) VALUES (2, 2, 2)
+Insert Into a2.Orders (Id, CustomerId, ProductId) VALUES (3, 3, 3)
+
+INSERT INTO a2.Customers (Id, FirstName, LastNAmeName, CardNumber) VALUES (4, 'Tina', 'Smith', 4546);
+INSERT INTO a2.Products (Id, Name, Price) VALUES (4, 'IPhone', $200);
+Insert Into a2.Orders (Id, CustomerId, ProductId) VALUES (4, 4, 4)
+
+SELECT *
+FROM a2.Orders as O
+    LEFT JOIN a2.Products as P ON O.ProductId = P.Id
+    LEFT JOIN a2.Customers as C ON O.CustomerID = C.Id
+WHERE C.FirstName = 'Tina' 
+
+SELECT SUM(P.Price)
+FROM a2.Orders as O
+    LEFT JOIN a2.Products as P ON O.ProductId = P.Id
+    LEFT JOIN a2.Customers as C ON O.CustomerID = C.Id
+WHERE P.Name = 'Iphone'
+
+UPDATE a2.Products
+SET Price = $250
+WHERE Products.Name = 'Iphone'
+
+SELECT *
+FROM a2.Products
+
+
+
+
+
+
+
 
