@@ -1,0 +1,138 @@
+<!-- This is a comment -->
+<!-- First part of an html is not an element but doc type -->
+<!-- Document Type declaration-->
+<!-- This doctype is necessary to have the browser interpret this
+document as html 5.-->
+
+
+<!DOCTYPE html>
+<!-- hmtl root element-->
+<html lang="en">
+    <!-- The head element, For general page metadata-->
+    <head>
+        <!-- decalring the character encoding of this file to be UTF-8 (Unicode)-->
+        <meta charset="UTF-8">
+        <!-- setting initial viewport on mobile devices.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- The name of the tab/window/bookmark-->
+        <title>HTML Basics</title>
+        <!-- spme things that may be used to put in the head tag-->
+        <!-- application-name: name of the web app -->
+        <!-- author-->
+        <!-- Description - used to be used heavily by search engines-->
+        <!-- keywords also, now mostly ignored by search engine to aviod spamming 
+        a website to the front page.-->
+        <!-- robots- for programs that crawl the web -->
+
+        <!-- Also in head tag, we link to CSS stylesheet files 
+        and to javascript files-->
+    </head>
+    <!-- the body element, for page content-->
+    <body>
+        Hello
+        <!-- html does not care about whitespace-->
+        World!
+
+        <!-- paragraph element-->
+        <p>Paragraph 1</p><p>Paragraph 2</p>
+        <!-- Again whitespace, without explicitly stating-->
+        <!-- Section headers 1-6-->
+        <h1>Biggest Header</h1>
+        <h6>smallest header</h6>
+        <img src = "https://estradaci.com/wp-content/uploads/2019/04/asp-net-core-logo.png"
+        width ="50px">
+        <!-- self closing tag-->
+        <!-- can also place from the relative path
+        from the same file system as the html-->
+        <!-- For links we have the anchor element-->
+        <a href = "https://www.google.com/"
+        target="_blank">Google</a>
+        
+        <!-- lists-->
+        <!-- ordered list-->
+        <ol>
+            <!-- list item-->
+            <li>Seattle</li>
+            <li>Dallas</li>
+            <li>Philadelphia</li>
+        </ol>
+        <ul>
+            <li>Houston</li>
+            <li>Golden State</li>
+        </ul>
+        <p>
+            we have <strong>strong</strong> text
+            (bold by default).<b>(Deprecated way
+            to bold text)</b>
+            We have <em>emphasis</em> text (italic
+            by default). <i> (deprecated italic 
+            text) </i> <u>underlined</u> text.
+        </p>
+        <blockquote>
+            for paragraphs that are quotations
+        </blockquote>
+
+        <!-- when thers not a pre-existing element
+        to decribe structurally what we want -->
+        <div id 'first-div'>
+            <!-- generic block element-->
+            Hello(div)
+        </div>
+        <div id 'second-div'>
+            <!-- generic block element-->
+            World (div)
+        </div>
+
+        <span>
+            <!-- generic inline element-->
+            Hello(span)
+        </span>
+        <span>
+            <!-- generic inline element-->
+            World(span)
+        </span>
+
+        <!-- global attributes e.g-->
+        <!-- id, class-->
+
+        <!-- tables in html-->
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        City
+                    </th>
+                    <th>
+                        State
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dallas</td>
+                    <td>Texas</td>
+                </tr>
+                <tr>
+                    <td>Seattle</td>
+                    <td>Washington</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--There are ways to escape characters in html-->
+        <p>
+            <!-- this does not work-->
+            <!--"<p></p>"-->
+            &lt;p&gt;
+            &copy;
+            <!-- "named character references-->
+        </p>
+        <!-- we also have numeric character references-->
+        <!-- decimla unicode codepoint-->
+        &#4624
+        <!-- hexadecimal Unicode codepoint-->
+        &#xb3fa
+
+    </body>
+</html>
