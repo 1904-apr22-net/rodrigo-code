@@ -18,6 +18,9 @@ CREATE TABLE Store.Location
     CONSTRAINT PK_Location PRIMARY KEY CLUSTERED (Id)
 );
 -- sp_rename 'Store.Location.PK_Orders', 'PK_Location'; 
+--ALTER TABLE Store.Location
+  --ADD Inventory int,
+      --column_2 column_definition,
 
 
 CREATE TABLE Store.Orders
@@ -84,9 +87,37 @@ ALTER TABLE Store.OrderItem ADD CONSTRAINT [FK_OrderItemProductId]
 CREATE INDEX [IFK_OrderItemProductId] ON Store.OrderItem (ProductId);
 
 -- Foreign Key: InventoryItem => LocationId
-ALTER TABLE Store.Customers ADD CONSTRAINT [FK_CustomerLocationId]
+ALTER TABLE Store.InventoryItem ADD CONSTRAINT [FK_InventoryItemLocationId]
     FOREIGN KEY (LocationId) REFERENCES Store.Location (Id) ON DELETE NO ACTION ON UPDATE NO ACTION;
-CREATE INDEX [IFK_CustomerLocationId] ON Store.Customers (LocationId);
+CREATE INDEX [IFK_InventoryItemLocationId] ON Store.InventoryItem (LocationId);
+
+-- Foreign Key: InventoryItem => ProductId
+ALTER TABLE Store.InventoryItem ADD CONSTRAINT [FK_InventoryItemProductId]
+    FOREIGN KEY (ProductId) REFERENCES Store.Product (Id) ON DELETE NO ACTION ON UPDATE NO ACTION;
+CREATE INDEX [IFK_InventoryItemProductId] ON Store.InventoryItem (ProductId);
+
+INSERT INTO Store.Product (Id, Name, Price) VALUES (1, 'Milk', $5);
+INSERT INTO Store.Product (Id, Name, Price) VALUES (2, 'Ham', $7);
+INSERT INTO Store.Product (Id, Name, Price) VALUES (3, 'Cheese', $6);
+
+INSERT INTO Store.Customers (Id, FirstName, LastName, PhoneNumber, LocationId) VALUES (1, 'Rod', 'Salomon', 1234, 1);
+INSERT INTO Store.Customers (Id, FirstName, LastName, PhoneNumber, LocationId) VALUES (2, 'John', 'Smith', 4567, 2);
+INSERT INTO Store.Customers (Id, FirstName, LastName, PhoneNumber, LocationId) VALUES (3, 'Jane', 'Doe', 7891, 2);
+
+--Insert Into a2.Orders (Id, CustomerId, ProductId) VALUES (1, 1, 1)
+-- Insert Into a2.Orders (Id, CustomerId, ProductId) VALUES (2, 2, 2)
+-- Insert Into a2.Orders (Id, CustomerId, ProductId) VALUES (3, 3, 3)
+
+-- INSERT INTO a2.Customers (Id, FirstName, LastNAmeName, CardNumber) VALUES (4, 'Tina', 'Smith', 4546);
+-- INSERT INTO a2.Products (Id, Name, Price) VALUES (4, 'IPhone', $200);
+-- Insert Into a2.Orders (Id, CustomerId, ProductId) VALUES (4, 4, 4)
+
+INSERT INTO Store.Location (Id, Name, Street, City, State) VALUES (1, 'Dallas store', 'Marigold Dr', 'Irving', 'TX')
+INSERT INTO Store.Location (Id, Name, Street, City, State) VALUES (2, 'Austin store', 'Guadalupe St', 'Austin', 'TX')
+
+
+
+
 
 
 

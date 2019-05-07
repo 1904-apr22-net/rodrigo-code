@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Collections;
 
-namespace StoreApplication
+namespace StoreClasses
 {
     //has a store location
     //has a customer

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StoreApplication
+namespace StoreClasses
 
 {
     //has first name, last name, etc.

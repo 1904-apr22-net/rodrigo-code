@@ -1,7 +1,8 @@
 using System;
 using Xunit;
-using StoreApplication;
+using StoreClasses;
 using Microsoft.VisualStudio.TestPlatform.Utilities;
+using StoreApplication;
 
 namespace StoreApplicationTest
 {
@@ -19,7 +20,9 @@ namespace StoreApplicationTest
             //Rod.CreateCustomer(FName, LName);
             Rod.Output();
             */
-
+            //var DBcontext = Dependencies.CreateDBContext();
+            //string toPrint = Dependencies.PrintLocation(DBcontext);
+            //Console.WriteLine(toPrint);
 
 
 
