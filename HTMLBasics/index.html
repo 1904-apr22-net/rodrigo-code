@@ -133,6 +133,54 @@ document as html 5.-->
         &#4624
         <!-- hexadecimal Unicode codepoint-->
         &#xb3fa
+        <!-- but above we defined an UTF-8 document-->
+        
+
+        <!-- new elements added by HTML 5-->
+        <!-- main section of the page-->
+        <main>
+        </main>
+        <!-- one of several articles-->
+        <article></article>
+        <!-- one of several sections-->
+        <section></section>
+            <header></header>
+            <footer></footer>
+            <!-- sidebar-->
+            <aside></aside>
+            <!-- a panel that has links-->
+            <nav></nav>
+            <div class="navigation-bar"></div>
+
+            <Audio></Audio>
+            <Canvas></Canvas>
+            <video></video>
+
+            <!-- forms submit data to url-->
+            <form action='http://google.com/search' method = "GET" target="_blank">
+                <input type='text' name='q'>
+                <input type="submit">
+            </form>
+            <div>
+                <form action="#">
+                    <input type='datetime-local'>
+                    <input type='color'>
+                    <input type='file'>
+                    <input type="number">
+                    <!-- name is for data sent to server-->
+                    <!-- id id the name of this element within page-->
+                    <br>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" id="firstname">
+                    <label>
+                        Last Name:
+                        <input type="text" name="lastname"
+                        required>
+                        <!-- requird= "required" means empty string not allowed-->
+                    </label>
+                
+                </form>
+            </div>
 
     </body>
 </html>
