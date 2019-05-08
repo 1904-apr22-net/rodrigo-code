@@ -1,0 +1,25 @@
+﻿@*
+   this is a razor comment
+    CSHTML views in MVS are rendered into html by the razor view engine
+    and they use razor syntax
+*@
+ 
+@model  HelloMVC.Models.TimeStamp
+
+@*
+this here is a razor block....this code runs while we render the page    
+*@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*Regular HTML here......nothing dynamic or templated*@
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h3>@Model.Value</h3>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+@*
+each view by default has a layout which is under Shared/_Layout.cshtml.
+    that file provides the overall structure of the document, the <html>, the <head>
+*@

@@ -16,6 +16,7 @@ namespace StoreApplication
 
         public static StoreRepository CreateStoreRepository()
         {
+            /*
             var SecretConfiguration = new SqlConnectionStringBuilder();
             SecretConfiguration.DataSource = "Server=tcp:salomon1904sql.database.windows.net";
             SecretConfiguration.UserID = "rodsalomon10";
@@ -25,10 +26,13 @@ namespace StoreApplication
             SecretConfiguration.ConnectTimeout = 30;
             SecretConfiguration.MultipleActiveResultSets = false;
             SecretConfiguration.TrustServerCertificate = false;
+            */
             //"Server=tcp:salomon1904sql.database.windows.net,1433;Initial Catalog=ProjectDB;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 
             var optionsBuilder = new DbContextOptionsBuilder<ProjectDBContext>();
             optionsBuilder.UseSqlServer(SecretConfiguration.ConnectionString);
+            //var optionsBuilder = new DbContextOptionsBuilder<ProjectDBContext>();
+           // optionsBuilder.UseSqlServer(SecretConfiguration.ConnectionString);
 
             var dbContext = new ProjectDBContext(optionsBuilder.Options);
 

@@ -7,10 +7,6 @@ namespace StoreClasses
     public class Location
     {
         public int Id { get; set; }
-        //public Dictionary<Products, int> Inventory{get; set;}
-        //public Dictionary<Products, int> Inventory{get; set;} 
-
-        //public List<Order> OrderHistory { get; set; }
 
         public string Name { get; set; }
 
@@ -19,6 +15,12 @@ namespace StoreClasses
         public string City { get; set; }
 
         public string State { get; set; }
+
+        public List<Customer> CustomersAtLocation { get; set; } = new List<Customer>();
+
+        public List<Order> OrdersAtLocation { get; set; } = new List<Order>();
+
+        
 
 
     }

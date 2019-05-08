@@ -11,9 +11,10 @@ namespace StoreClasses
     //must have some additional business rules
     public class Order
     {
+        public int Id { get; set; } = 0;
         public Customer Customer { get; set; }
         public Location Location { get; set; }
-        public TimeSpan OrderTime { get; set; }
+        public DateTime OrderTime { get; set; }
         public List<Products> ProductsOrdered { get; set; } 
 
 

@@ -10,15 +10,17 @@ namespace StoreClasses
     //cannot place more than one order from the same location within two hours
     public class Customer
     {
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        
+        public string PhoneNumber { get; set; }
         public Location CustLocation { get; set; }
 
-        public Order CustOrder { get; set; }
+        //public Order CustOrder { get; set; }
 
-        public List<Order> custOrderHistory { get; set; }
+        public List<Order> CustOrderHistory { get; set; }
 
-        public List<Customer> AllCustomers { get; set; }
      
 
         public void Output()
