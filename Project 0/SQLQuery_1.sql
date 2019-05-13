@@ -42,6 +42,7 @@ CREATE TABLE Store.OrderItem
     CONSTRAINT PK_OrderItem PRIMARY KEY CLUSTERED(Id)
 )
 
+
 CREATE TABLE Store.Product
 (
     Id INT NOT NULL,
@@ -52,6 +53,8 @@ CREATE TABLE Store.Product
     --OrderItemId INT NOT NULL,
     CONSTRAINT PK_Product PRIMARY KEY CLUSTERED(Id)
 )
+DELETE FROM Store.Product
+
 
 CREATE TABLE Store.InventoryItem
 (
@@ -96,13 +99,15 @@ ALTER TABLE Store.InventoryItem ADD CONSTRAINT [FK_InventoryItemProductId]
     FOREIGN KEY (ProductId) REFERENCES Store.Product (Id) ON DELETE NO ACTION ON UPDATE NO ACTION;
 CREATE INDEX [IFK_InventoryItemProductId] ON Store.InventoryItem (ProductId);
 
-INSERT INTO Store.Product (Id, Name, Price) VALUES (1, 'Milk', $5);
-INSERT INTO Store.Product (Id, Name, Price) VALUES (2, 'Ham', $7);
-INSERT INTO Store.Product (Id, Name, Price) VALUES (3, 'Cheese', $6);
+INSERT INTO Store.Product (Id, Name, Price) VALUES (1, 'Burger', $5);
+INSERT INTO Store.Product (Id, Name, Price) VALUES (2, 'Fries', $2);
+INSERT INTO Store.Product (Id, Name, Price) VALUES (3, 'Drink', $1);
 
 INSERT INTO Store.Customers (Id, FirstName, LastName, PhoneNumber, LocationId) VALUES (1, 'Rod', 'Salomon', 1234, 1);
 INSERT INTO Store.Customers (Id, FirstName, LastName, PhoneNumber, LocationId) VALUES (2, 'John', 'Smith', 4567, 2);
 INSERT INTO Store.Customers (Id, FirstName, LastName, PhoneNumber, LocationId) VALUES (3, 'Jane', 'Doe', 7891, 2);
+INSERT INTO Store.Customers (Id, FirstName, LastName, PhoneNumber, LocationId) VALUES (4, 'John', 'Snow', 7865, 1);
+
 
 --Insert Into a2.Orders (Id, CustomerId, ProductId) VALUES (1, 1, 1)
 -- Insert Into a2.Orders (Id, CustomerId, ProductId) VALUES (2, 2, 2)
@@ -115,9 +120,23 @@ INSERT INTO Store.Customers (Id, FirstName, LastName, PhoneNumber, LocationId) V
 INSERT INTO Store.Location (Id, Name, Street, City, State) VALUES (1, 'Dallas store', 'Marigold Dr', 'Irving', 'TX')
 INSERT INTO Store.Location (Id, Name, Street, City, State) VALUES (2, 'Austin store', 'Guadalupe St', 'Austin', 'TX')
 
+INSERT INTO Store.Orders (Id, Time, CustomerId, LocationId) VALUES (1, '2:35 am', 1, 1)
+INSERT INTO Store.OrderItem (OrderId, ProductId, Id) VALUES (1, 1, 1)
+INSERT INTO Store.Orders (Id, Time, CustomerId, LocationId) VALUES (2, '2:35 pm', 2, 2)
+INSERT INTO Store.OrderItem (OrderId, ProductId, Id) VALUES (2, 1, 2)
+INSERT INTO Store.OrderItem (OrderId, ProductId, Id) VALUES (2, 2, 3)
+INSERT INTO Store.OrderItem (OrderId, ProductId, Id) VALUES (2, 3, 4)
+
+INSERT INTO Store.Orders (Id, Time, CustomerId, LocationId) VALUES (3, '9:13 am', 3, 2)
+INSERT INTO Store.OrderItem (OrderId, ProductId, Id) VALUES (3, 2, 5)
 
 
 
+
+
+
+SELECT *
+FROM Store.Customers
 
 
 
